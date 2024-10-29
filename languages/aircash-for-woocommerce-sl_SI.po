@@ -1,0 +1,399 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/aircash-"
+"woocommerce\n"
+"POT-Creation-Date: 2022-05-09 11:19+0200\n"
+"PO-Revision-Date: 2022-05-09 12:18+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sl_SI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100>=3 && n"
+"%100<=4 ? 2 : 3);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: .\n"
+
+#. Plugin Name of the plugin
+msgid "Aircash for WooCommerce"
+msgstr "Aircash for WooCommerce"
+
+#. Plugin URI of the plugin
+msgid "https://aircash.eu/aircash-woocommerce/"
+msgstr "https://aircash.eu/aircash-woocommerce/"
+
+#. Description of the plugin
+msgid "Aircash - for quick and simple payments"
+msgstr "Aircash - for quick and simple payments"
+
+#. Author of the plugin
+msgid "Aircash"
+msgstr "Aircash"
+
+#. Author URI of the plugin
+msgid "https://aircash.eu/"
+msgstr "https://aircash.eu/"
+
+#: aircash-woocommerce.php:82
+msgid ""
+"\"Aircash for WooCommerce\" gateway is disabled because OpenSSL extension is "
+"not installed."
+msgstr ""
+"\"Aircash for WooCommerce\" gateway is disabled because OpenSSL extension is "
+"not installed."
+
+#: aircash-woocommerce.php:83
+msgid ""
+"Please <a href=\"https://www.php.net/manual/en/openssl.installation.php\" "
+"target=\"_blank\">install OpenSSL PHP extension</a> in order to use "
+"\"Aircash for WooCommerce\"."
+msgstr ""
+"Please <a href=\"https://www.php.net/manual/en/openssl.installation.php\" "
+"target=\"_blank\">install OpenSSL PHP extension</a> in order to use "
+"\"Aircash for WooCommerce\"."
+
+#: aircash-woocommerce.php:84
+msgid ""
+"Contact your web server administrator or your web hosting provider if not "
+"sure how to install PHP extensions."
+msgstr ""
+"Contact your web server administrator or your web hosting provider if not "
+"sure how to install PHP extensions."
+
+#: aircash-woocommerce.php:101
+msgid "\"Aircash for WooCommerce\" is in <b>test mode.</b>"
+msgstr "\"Aircash for WooCommerce\" is in <b>test mode.</b>"
+
+#: aircash-woocommerce.php:118 aircash-woocommerce.php:133
+msgid "\"Aircash for WooCommerce\" is almost ready."
+msgstr "\"Aircash for WooCommerce\" is almost ready."
+
+#: aircash-woocommerce.php:119
+msgid ""
+"<a href=\"%s\" class=\"thickbox open-plugin-details-modal\">Connect with "
+"Aircash</a> to submit a new account request or configure Aircash settings <a "
+"href=\"%s\" class=\"thickbox open-plugin-details-modal\">manually</a>."
+msgstr ""
+"<a href=\"%s\" class=\"thickbox open-plugin-details-modal\">Connect with "
+"Aircash</a> to submit a new account request or configure Aircash settings <a "
+"href=\"%s\" class=\"thickbox open-plugin-details-modal\">manually</a>."
+
+#: aircash-woocommerce.php:123
+msgid ""
+"If you want to test \"Aircash for WooCommerce\", enable the &quot;Test "
+"mode&quot; in the <a href=\"%s\">payment gateway settings</a>."
+msgstr ""
+"If you want to test \"Aircash for WooCommerce\", enable the &quot;Test "
+"mode&quot; in the <a href=\"%s\">payment gateway settings</a>."
+
+#: aircash-woocommerce.php:134
+msgid ""
+"You have successfully submitted a new account request. Please wait until "
+"Aircash verifies your account and then update account status request by <a "
+"class=\"thickbox open-plugin-details-modal\" href=\"%s\">checking the "
+"configuration</a>."
+msgstr ""
+"You have successfully submitted a new account request. Please wait until "
+"Aircash verifies your account and then update account status request by <a "
+"class=\"thickbox open-plugin-details-modal\" href=\"%s\">checking the "
+"configuration</a>."
+
+#: aircash-woocommerce.php:146
+msgid ""
+"There has been an error while sending new account request to Aircash. Please "
+"check the <a href=\"%s\">log file</a> for details."
+msgstr ""
+"There has been an error while sending new account request to Aircash. Please "
+"check the <a href=\"%s\">log file</a> for details."
+
+#: aircash-woocommerce.php:237
+msgid "Settings"
+msgstr "Settings"
+
+#: includes/class-aircash-payment-gateway.php:184
+#: includes/class-aircash-payment-gateway.php:185
+msgid "Connect with Aircash"
+msgstr "Connect with Aircash"
+
+#: includes/class-aircash-payment-gateway.php:193
+#: includes/class-aircash-payment-gateway.php:194
+msgid "Manual configuration"
+msgstr "Manual configuration"
+
+#: includes/class-aircash-payment-gateway.php:201
+msgid "Configuration check"
+msgstr "Configuration check"
+
+#: includes/class-aircash-payment-gateway.php:202
+msgid "Check configuration"
+msgstr "Check configuration"
+
+#: includes/class-aircash-payment-gateway.php:217
+msgid "After confirming your order, you will be redirected to pay via Aircash"
+msgstr "Po potrditvi naročila nadaljuj s plačilom preko Aircash-a"
+
+#: includes/class-aircash-payment-gateway.php:284
+msgid "Enable \"Aircash for WooCommerce\""
+msgstr "Enable \"Aircash for WooCommerce\""
+
+#: includes/class-aircash-payment-gateway.php:289
+#: includes/class-aircash-payment-gateway.php:1243
+msgid "Partner ID"
+msgstr "Partner ID"
+
+#: includes/class-aircash-payment-gateway.php:295
+msgid "Public key"
+msgstr "Public key"
+
+#: includes/class-aircash-payment-gateway.php:300
+msgid "Private key"
+msgstr "Private key"
+
+#: includes/class-aircash-payment-gateway.php:305
+msgid "Passphrase"
+msgstr "Passphrase"
+
+#: includes/class-aircash-payment-gateway.php:310
+#: includes/class-aircash-payment-gateway.php:351
+#: includes/class-aircash-payment-gateway.php:1246
+msgid "Currency"
+msgstr "Currency"
+
+#: includes/class-aircash-payment-gateway.php:316
+msgid "Paid order status"
+msgstr "Paid order status"
+
+#. translators: %s: Order status
+#: includes/class-aircash-payment-gateway.php:319
+msgid "(Default status: \"%s\")."
+msgstr "(Default status: \"%s\")."
+
+#: includes/class-aircash-payment-gateway.php:324
+msgid "Enable Test mode"
+msgstr "Enable Test mode"
+
+#: includes/class-aircash-payment-gateway.php:326
+msgid "Test mode"
+msgstr "Test mode"
+
+#: includes/class-aircash-payment-gateway.php:327
+msgid "By enabling test mode, test configuration will be used. Otherwise production configuration will be used."
+msgstr "By enabling test mode, test configuration will be used. Otherwise production configuration will be used."
+
+#: includes/class-aircash-payment-gateway.php:332
+msgid "Log file"
+msgstr "Log file"
+
+#: includes/class-aircash-payment-gateway.php:338
+#: includes/class-aircash-payment-gateway.php:1244
+msgid "Partner name"
+msgstr "Partner name"
+
+#: includes/class-aircash-payment-gateway.php:342
+#: includes/class-aircash-payment-gateway.php:1245
+msgid "E-mail"
+msgstr "E-mail"
+
+#: includes/class-aircash-payment-gateway.php:346
+msgid "Phone"
+msgstr "Phone"
+
+#: includes/class-aircash-payment-gateway.php:357
+msgid "Note"
+msgstr "Note"
+
+#: includes/class-aircash-payment-gateway.php:517
+msgid "Pay with Aircash"
+msgstr "Pay with Aircash"
+
+#: includes/class-aircash-payment-gateway.php:527
+msgid "Open Aircash application"
+msgstr "Odpri aplikacijo Aircash"
+
+#: includes/class-aircash-payment-gateway.php:528
+msgid "Select \"Scan and Pay\""
+msgstr "Izberi \"Skeniraj in plačaj\""
+
+#: includes/class-aircash-payment-gateway.php:529
+msgid "Point your camera to QR code"
+msgstr "Usmeri kamero na QR kodo"
+
+#: includes/class-aircash-payment-gateway.php:530
+msgid "Follow instructions in Aircash application"
+msgstr "Sledi navodilom v aplikaciji Aircash"
+
+#: includes/class-aircash-payment-gateway.php:535
+msgid "Payment Successful"
+msgstr "Plačilo uspešno"
+
+#: includes/class-aircash-payment-gateway.php:545
+msgid "Download the latest Aircash app:"
+msgstr "Prenesi najnovejšo različico aplikacije Aircash:"
+
+#. translators: %s: Order ID
+#: includes/class-aircash-payment-gateway.php:599
+msgid "Order with ID \"%s\" is not found"
+msgstr "Order with ID \"%s\" is not found"
+
+#: includes/class-aircash-payment-gateway.php:618
+msgid "Aircash public certificate file not found or unreadable"
+msgstr "Aircash public certificate file not found or unreadable"
+
+#: includes/class-aircash-payment-gateway.php:626
+msgid "Unable to verify signature: %s"
+msgstr "Unable to verify signature: %s"
+
+#. translators: %s: Currency code
+#: includes/class-aircash-payment-gateway.php:632
+msgid "Currency code %s is not supported."
+msgstr "Currency code %s is not supported."
+
+#. translators: 1: Order currency ISO, 2: Aircash transaction currency code
+#: includes/class-aircash-payment-gateway.php:637
+msgid "Order has different currency (%1$s) from Aircash payment (%2$s)"
+msgstr "Order has different currency (%1$s) from Aircash payment (%2$s)"
+
+#. translators: 1: Order amount, 2: Aircash transaction amount
+#: includes/class-aircash-payment-gateway.php:643
+msgid "Order has different amount (%1$s) from Aircash payment (%2$s)"
+msgstr "Order has different amount (%1$s) from Aircash payment (%2$s)"
+
+#. translators: %s: Order status
+#: includes/class-aircash-payment-gateway.php:650
+msgid "Order is already in status \"%s"
+msgstr "Order is already in status \"%s"
+
+#: includes/class-aircash-payment-gateway.php:800
+msgid "Aircash does not support partial refunds."
+msgstr "Aircash does not support partial refunds."
+
+#: includes/class-aircash-payment-gateway.php:998
+msgid "Partner name is required."
+msgstr "Partner name is required."
+
+#: includes/class-aircash-payment-gateway.php:1001
+msgid "E-mail address is required."
+msgstr "E-mail address is required."
+
+#: includes/class-aircash-payment-gateway.php:1003
+msgid "E-mail address is invalid."
+msgstr "E-mail address is invalid."
+
+#: includes/class-aircash-payment-gateway.php:1006
+msgid "Phone number is requred."
+msgstr "Phone number is requred."
+
+#: includes/class-aircash-payment-gateway.php:1114
+msgid ""
+"Account request already submitted.<br>Please wait until we process your "
+"request or contact our support."
+msgstr ""
+"Account request already submitted.<br>Please wait until we process your "
+"request or contact our support."
+
+#: includes/class-aircash-payment-gateway.php:1122
+msgid ""
+"<b>Error</b> - there was an error submitting new account request. Check the "
+"log file for details."
+msgstr ""
+"<b>Error</b> - there was an error submitting new account request. Check the "
+"log file for details."
+
+#: includes/class-aircash-payment-gateway.php:1151
+msgid "Send new account request"
+msgstr "Send new account request"
+
+#: includes/class-aircash-payment-gateway.php:1177
+msgid ""
+"<b>Warning</b> - changing this values may cause Aircash payment to stop "
+"working properly."
+msgstr ""
+"<b>Warning</b> - changing this values may cause Aircash payment to stop "
+"working properly."
+
+#: includes/class-aircash-payment-gateway.php:1188
+msgid "Save configuration"
+msgstr "Save configuration"
+
+#: includes/class-aircash-payment-gateway.php:1227
+#: includes/class-aircash-payment-gateway.php:1229
+msgid "Account status"
+msgstr "Account status"
+
+#: includes/class-aircash-payment-gateway.php:1236
+msgid "Remote check"
+msgstr "Remote check"
+
+#: includes/class-aircash-payment-gateway.php:1238
+msgid "Last check"
+msgstr "Last check"
+
+#: includes/class-aircash-payment-gateway.php:1241
+msgid "Configuration"
+msgstr "Configuration"
+
+#: includes/class-aircash-payment-gateway.php:1248
+msgid "Callback URL"
+msgstr "Callback URL"
+
+#: includes/class-aircash-payment-gateway.php:1251
+msgid "Certificate check"
+msgstr "Certificate check"
+
+#: includes/class-aircash-payment-gateway.php:1254
+#: includes/class-aircash-payment-gateway.php:1298
+msgid "Private key error"
+msgstr "Private key error"
+
+#: includes/class-aircash-payment-gateway.php:1258
+#: includes/class-aircash-payment-gateway.php:1302
+msgid "Public certificate not set"
+msgstr "Public certificate not set"
+
+#: includes/class-aircash-payment-gateway.php:1265
+#: includes/class-aircash-payment-gateway.php:1309
+msgid "It's all good."
+msgstr "It's all good."
+
+#: includes/class-aircash-payment-gateway.php:1268
+#: includes/class-aircash-payment-gateway.php:1312
+msgid "Error verifying - check public certificate/passphrase."
+msgstr "Error verifying - check public certificate/passphrase."
+
+#: includes/class-aircash-payment-gateway.php:1274
+msgid "Test mode enabled"
+msgstr "Test mode enabled"
+
+#: includes/class-aircash-payment-gateway.php:1275
+msgid "Test mode configuration"
+msgstr "Test mode configuration"
+
+#: includes/class-aircash-payment-gateway.php:1279
+msgid "Test account status"
+msgstr "Test account status"
+
+#: includes/class-aircash-payment-gateway.php:1286
+msgid "Test remote account check"
+msgstr "Test remote account check"
+
+#: includes/class-aircash-payment-gateway.php:1288
+msgid "Test configuration"
+msgstr "Test configuration"
+
+#: includes/class-aircash-payment-gateway.php:1290
+msgid "Test partner ID"
+msgstr "Test partner ID"
+
+#: includes/class-aircash-payment-gateway.php:1291
+msgid "Test currency"
+msgstr "Test currency"
+
+#: includes/class-aircash-payment-gateway.php:1292
+msgid "Test callback URL"
+msgstr "Test callback URL"
+
+#: includes/class-aircash-payment-gateway.php:1295
+msgid "Test certificate check"
+msgstr "Test certificate check"

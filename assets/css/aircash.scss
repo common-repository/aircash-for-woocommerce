@@ -1,0 +1,240 @@
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+
+// Tablets and small desktops
+$screen-lg-min: 992px;
+
+// Large tablets and desktops
+$screen-xl-min: 1200px;
+
+@mixin md {
+  @media (min-width: #{$screen-md-min}) {
+    @content;
+  }
+}
+
+// Large devices
+@mixin lg {
+  @media (min-width: #{$screen-lg-min}) {
+    @content;
+  }
+}
+
+// Extra large devices
+@mixin xl {
+  @media (min-width: #{$screen-xl-min}) {
+    @content;
+  }
+}
+
+.aircash-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+
+  .aircash-wrapper {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    &.success {
+      .aircash-payment-button {
+        opacity: 0;
+      }
+
+      .aircash-qr-code-wrapper {
+        opacity: 0;
+      }
+
+      .aircash-download-label {
+        opacity: 0;
+      }
+
+      .aircash-app-icons {
+        opacity: 0;
+      }
+
+      .aircash-success-wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+      }
+
+      h4 {
+        opacity: 1;
+      }
+    }
+
+    h4 {
+      transition: opacity 350ms ease-in-out;
+      opacity: 0;
+      padding-top: 30px;
+      color: #7ac142;
+      font-weight: bold;
+    }
+  }
+
+  .aircash-payment-button {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    transition: background-color 350ms ease-in-out;
+
+    @include lg {
+      display: none;
+    }
+  }
+
+  .aircash-app-icons {
+    display: flex;
+    margin-top: 1em;
+    flex-direction: column;
+
+    a {
+      img {
+        display: inline;
+        margin-bottom: 1em;
+      }
+    }
+
+    @include lg {
+      margin: 0;
+      flex-direction: row;
+      a {
+        img {
+          margin-right: 1em;
+        }
+      }
+
+    }
+
+  }
+
+  .aircash-download-label {
+    margin-bottom: 1em;
+    margin-top: 0;
+    @include lg {
+      margin-bottom: 2em;
+      margin-top: 2em;
+    }
+  }
+
+  .aircash-logo {
+    display: none;
+    @include lg {
+      margin: 0 auto 2em;
+      display: block;
+    }
+  }
+
+  .aircash-qr-code-wrapper {
+    display: none;
+    background-color: #f8f8f8;
+    padding: 2em;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 350ms ease-in-out;
+
+    @include lg {
+      display: flex;
+    }
+  }
+
+  .aircash-qr-code {
+    display: none;
+    max-width: 300px;
+    @include lg {
+      background: white;
+      padding: 1em;
+      border: 1px solid #ccc;
+      display: block;
+      margin-right: 1rem;
+      border-radius: 1em;
+
+
+    }
+  }
+
+  .aircash-qr-code, .aircash-app-icons {
+    opacity: 1;
+    transition: opacity 350ms ease-in-out;
+  }
+
+
+  .aircash-success-wrapper {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3em;
+  }
+
+  .aircash-success-checkmark {
+    transform: scale(2);
+  }
+
+  .checkmark__circle {
+    stroke-dasharray: 166;
+    stroke-dashoffset: 166;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+    stroke: #7ac142;
+    fill: none;
+    animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards
+  }
+
+  .checkmark {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: block;
+    stroke-width: 2;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    margin: 10% auto;
+    box-shadow: inset 0 0 0 #7ac142;
+    animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both
+  }
+
+  .checkmark__check {
+    transform-origin: 50% 50%;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards
+  }
+
+  @keyframes stroke {
+    100% {
+      stroke-dashoffset: 0
+    }
+  }
+
+  @keyframes scale {
+
+    0%,
+    100% {
+      transform: none
+    }
+
+    50% {
+      transform: scale3d(1.1, 1.1, 1)
+    }
+  }
+
+  @keyframes fill {
+    100% {
+      box-shadow: inset 0 0 0 30px #7ac142
+    }
+  }
+
+}
